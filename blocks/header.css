@@ -1,0 +1,78 @@
+.header{
+
+}
+.header__logo{
+    display: flex;
+    margin: auto;
+    padding-top: 34px;
+}
+
+.header__lead{
+    display: flex;
+    flex-direction: column;
+    margin: 92px auto;
+}
+
+.header__title{
+    margin: 0;
+    font-family: "Inter";
+    font-style: bold;
+    font-size: 96px;
+    line-height: 100px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 0 132px;   
+}
+
+.header__subtitle{
+    margin: 32px 0 64px;
+    font-family: "Inter";
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 0 132px;
+}
+
+.header__image{
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .header__lead{
+        margin: 92px auto;
+    }
+   
+    .header__title{
+        font-size: 75px;
+        line-height: 79px;
+        padding: 0 119px;    
+    }
+    
+    .header__subtitle{
+        margin: 25px 0 30px;
+        padding: 0 24px;
+    }
+    
+}
+
+@media screen and (max-width: 544px) {
+    .header__lead{
+        margin: 50px auto;
+    }
+
+    .header__title{
+        font-size: 40px;
+        line-height: 44px;
+        padding: 0 46px; 
+    }
+    
+    .header__subtitle{
+        margin: 16px 16px 40px;
+        padding: 0 16px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+}
