@@ -1,11 +1,13 @@
-.page {
+.page{
   height: 100%;
   max-width: 1440px;
+  min-width: 320px;
   margin: auto;
-  padding: 0 148px;
   background-color: #2A2C2F;
   color: #ffff; 
   font-family: "Inter", sans-serif;
+  padding: 0 148px;
+  background-size: cover;
 }
 
 @media screen and (max-width: 1024px) {
